@@ -1,0 +1,297 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="zh-CN">
+<head>
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    <title>我的网站</title>
+    <link rel="stylesheet" href="../css/bootstrap-combined.min.css">
+    <link rel="stylesheet" href="../css/layoutit.css">
+    <script src="../js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.htmlClean.js" type="text/javascript"></script>
+    <script src="../ckeditor/ckeditor.js" type="text/javascript"></script>
+    <style type="text/css">
+        .cke{visibility:hidden;}
+        body,div,table{margin: 0;padding: 0;}
+        a:focus { outline:none;}
+        .imgteaser {
+            margin: 0;
+            overflow: hidden;
+            float: left;
+            position: relative;
+            background: #e6e6fa;
+            width: 200px;
+        }
+        .imgteaser a {
+            text-decoration: none;
+            float: left;
+        }
+        .imgteaser a:hover {
+            cursor: pointer;
+        }
+        .imgteaser a img {
+            float: left;
+            margin: 10px;
+            border: none;
+            padding: 5px;
+
+            /*background: #fff;*/
+            /*border: 1px solid #ddd;*/
+        }
+
+
+        .imgteaser a:hover .www_zzjs_net{
+            display: block;
+            font-size: 11px;
+            padding: 10px 0;
+            background: #111;
+            filter:alpha(opacity=75);
+            opacity:.75;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /*--IE 8 Transparency--*/
+            color: #fff;
+            position: absolute;
+            bottom: 8px;
+            left: 13px;
+            right: 22px;
+            padding: 10px;
+            margin: 0;
+            /*width: 566px;*/
+            /*border-top: 1px solid #999;*/
+        }
+        .imgteaser a:hover .www_zzjs_net strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size:12px;
+            /*align-items: center;*/
+        }
+        .imgteaser a .www_zzjs_net {display: none; }
+
+    </style>
+    <link href="../css/default.css">
+    <script src="../ckeditor/config.js" type="text/javascript"></script>
+    <script src="../js/scripts.js" type="text/javascript"></script>
+
+</head>
+<body  class="devpreview " style="min-height: 198px;">
+    <div class="container" style="width: 1000px; align-content: center">
+        <div style="height: 120px; background-color: #3a87ad ;padding: 0 ; margin: 0;">
+            <div style="height: 80px;">
+                <div>
+                    <h3 style="padding-left: 20px; padding-top: 30px;color: #ffffff">
+                        九江旅游社
+                    </h3>
+                </div>
+
+            </div>
+            <div>
+                <ul class="nav nav-tabs" style="font-size: 18px;">
+
+                    <li ><a href="../index.html" style="color: white">&nbsp;首页&nbsp;</a></li>
+                    <li class="active"><a href="scenery.html">&nbsp;旅游景点&nbsp;</a></li>
+                    <li ><a href="../hotel/hotel.html" style="color: white">&nbsp;酒店宾馆&nbsp;</a></li>
+                    <li><a href="../route/route.html" style="color: white">&nbsp;推荐线路&nbsp;</a></li>
+                    <li><a href="../info/info1.html" style="color: white">&nbsp;公告须知&nbsp;</a></li>
+                    <li><a href="../strategy/strategy.html" style="color: white">&nbsp;旅游攻略&nbsp;</a></li>
+                    <li class="divider"></li>
+                    <li></li>
+                    <form class="form-search" style="float: right;padding-right: 50px;">
+                        <input class="input-medium search-query" type="text" size="2"/>
+                        <p class="btn btn-info">查找</p>
+                    </form>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+
+        </div>
+        <table width="1000px">
+            <tr>
+                <td valign="top" width="200px;" style="padding-right: 30px;">
+                    <div style="font-size: 20px;padding-top: 20px; padding-left: 10px; background: #e6e6fa">推荐景点</div>
+
+                    <div class="imgteaser">
+                        <a href="scenery.html">
+                            <img src="../images/scenery/sce1/1.jpg" />
+                            <span class="www_zzjs_net">
+                            <strong>花源谷</strong>
+                            江西省九江市武宁县阳光照耀29度假区
+                            </span>
+                        </a>
+                    </div>
+                    <div class="imgteaser">
+                        <a href="sce2.html">
+                        <img src="../images/scenery/sce2/1.jpg" />
+                            <span class="www_zzjs_net">
+                            <strong>庐山西海（柘林湖）</strong>
+                            江西九江市永修县庐山西海司马码头
+                            </span>
+                        </a>
+                    </div>
+                    <div class="imgteaser">
+                        <a href="sce3.html">
+                            <img src="../images/scenery/sce3/1.jpg" />
+                            <span class="www_zzjs_net">
+                            <strong>龙宫洞</strong>
+                            江西省九江市彭泽县西南乌龙山麓
+                            </span>
+                        </a>
+                    </div>
+                    <div class="imgteaser">
+                        <a href="sce4.html">
+                            <img src="../images/scenery/sce4/1.jpg" />
+                            <span class="www_zzjs_net">
+                            <strong>庐山三叠泉</strong>
+                            江西省九江市庐山区
+                            </span>
+                        </a>
+                    </div>
+                    <!--</div>-->
+                    <p class="clearfix"></p>
+                    <div style="background-color: #e6e6fa; height: 250px; line-height: 30px">
+                        <p style="font-size: 20px;padding-top: 20px; padding-left: 10px;">旅游景点</p>
+
+                        <ul style="padding-right: 10px; font-size: 16px">
+                            <li>
+                                <a href="">
+                                    庐山西海观湖岛景区
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    龙源峡
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    武宁县西海湾景区
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    民生大千世界梦幻乐园
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    庐山东林大峡谷
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    庐山碧龙潭景区
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </td>
+                <td valign="top">
+                    <div style="font-size: 20px;text-align: center;padding-top: 20px">
+                        庐山三叠泉
+                    </div>
+                    <br>
+                    <div style="text-align: center">
+                        景点地址：江西省九江市庐山区
+                    </div>
+                    <br>
+                    <div style="font-size: 18px">景点简介:</div>
+                    <div>
+                        <h4>去<font size="+0" color="red">庐山三叠泉</font>的N大理由</h4>
+                        <!-- 简介模块头部 -->
+                        <ul><!-- 理由无序列表 -->
+                            <li>
+                                <span>理由1</span>
+                                <p>三叠泉风景区位于江西省著名风景区庐山风景区中，总面积16.5平方公里，山峰高峻，峡谷幽深。</p>
+                            </li>
+                            <li>
+                                <span>理由2</span>
+                                <p>三叠泉又名三级泉、水帘泉，古人称“匡庐瀑布，首推三叠”，誉为“庐山第一奇观”。</p>
+                            </li>
+                            <li>
+                                <span>理由3</span>
+                                <p>瀑布分三叠，各异其趣，古人描绘曰：“上级如飘云拖练，中级如碎石摧冰，下级如玉龙走潭。”</p>
+                            </li>
+
+                        </ul>
+
+                        <h4 class="intro_head"><font size="+0" color="red">庐山三叠泉</font>详情</h4>
+                        <dl class="intro_information">
+                        <!-- 简介信息 -->
+                            <dt>
+                                <span>游玩景点</span><font color="red"> 庐山三叠泉</font></dt>
+                            <dd>
+                            <!-- 景区介绍 -->
+                                <p>三叠泉风景区位于江西省著名风景区庐山风景区中，总面积16.5平方公里，山峰高峻，峡谷幽深。在“燕山造山运动”和“喜马拉雅造山运动”期间，由于地壳的多次沉降与抬升，形成了褶皱密布、断层纵横、岭谷相间的山体，
+                                    又经过第四纪冰川的剧烈摩擦而形成“冰阶”崖面。森林覆盖率达89.9%，有圆头柳杉、灯台树、杜种等2331种植物和动物200多种。</p>
+                                <div>
+                                    <img title="" src="../images/scenery/sce4/2.jpg" alt="" />
+                                    <img title="" src="../images/scenery/sce4/3.jpg" alt="" />
+                                    <br>
+                                </div>
+                                <br>
+                            </dd>
+                            <dt>
+                                <span>游玩景点</span><font color="red"> 庐山三叠泉</font>
+                            </dt>
+                            <dd>
+                                <!-- 景区介绍 -->
+                                <p>三叠泉又名三级泉、水帘泉，古人称“匡庐瀑布，首推三叠”，誉为“庐山第一奇观”，由大月山、五老峰的涧水汇合，从大月山流出，经过五老峰背，由北崖悬口注入大盘石上，又飞泻到二级大盘石，再喷洒至三级盘石，形成三叠，故名；
+                                    势如奔马，声若洪钟，总落差155米。瀑布分三叠，各异其趣，古人描绘曰：“上级如飘云拖练，中级如碎石摧冰，下级如玉龙走潭。”</p>
+                                <div>
+                                    <img title="" src="../images/scenery/sce4/4.jpg" alt="" />
+                                    <img title="" src="../images/scenery/sce4/5.jpg" alt="" />
+                                    <br>
+                                </div>
+                                <br>
+                            </dd>
+                            <dt>
+                                <span>游玩景点</span>
+                                <font color="red"> 庐山三叠泉</font>
+                            </dt>
+                            <dd>
+                                <!-- 景区介绍 -->
+                                <p>有趣的是，历史上，三叠泉曾长期未被发现，隐居在它上源屏风叠的李白和在它下游白鹿洞讲学的朱熹都不知咫尺之地有此胜境。
+                                    直到南宋，三叠泉才被人发现，渐渐赢得庐山第一景观的美誉。自此往后，各代诗家名流皆竞相前来观赏，并留下诸多名篇佳作。</p>
+                                <div>
+
+                                    <img title="" src="../images/scenery/sce4/6.jpg" alt="" />
+                                    <img title="" src="../images/scenery/sce4/7.jpg" alt="" />
+                                </div>
+                            </dd>
+                            <dt>
+                                <span>游玩景点</span><font color="red"> 庐山三叠泉</font>
+                            </dt>
+                            <dd>
+                                <!-- 景区介绍 -->
+                                <p>立于泉下盘石向上仰观，但见抛珠溅玉的三叠泉宛如白鹭千片，上下争飞；又如百幅冰绡，抖腾长空；万斛明珠，九天飞洒。经阳光折射，五光十色，瑰丽夺目，恰似银河九天飞来。立于“观瀑亭”可又俯视三叠。
+                                    听瀑鸣如击鼓，吼若轰雷；见瀑像喷晶抛珠，水洒溅玉，连垂素练，落入深谷。仰看与俯视各蔚壮观，自成美趣，故有“不到三叠泉，不算庐山客”之说。</p>
+                                <div>
+                                    <img title="" src="../images/scenery/sce4/8.jpg" alt="" />
+                                    <img title="" src="../images/scenery/sce4/9.jpg" alt="" />
+                                    <br>
+                                </div>
+                                <br>
+                            </dd>
+                        </dl>
+                        <h4><font size="+0" color="red"> 庐山三叠泉 </font>温馨提示</h4>
+                        <ul>
+                            <li>游客拍照请注意防滑，以免跌落水中。</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div  align="center" style="margin-top: 30px; line-height: 30px; font-size: 18px; background: #9e9e9e ;height: 100px;">
+
+            <br>
+            庐山旅游管理系统. 版权所有，请勿侵权！ <a href="#">信息学院A1322班易文静设计</a><br>
+
+            <a href="#">技术支持</a> | <a href="#">使用指南</a>
+
+
+        </div>
+    </div>
+</body>
+</html>

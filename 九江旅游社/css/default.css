@@ -1,0 +1,25 @@
+.lr_padding{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#links a {
+    color: #FFFFFF;
+}
+
+#legal {
+    float: right;
+    width: 720px;
+    height: 45px;
+    padding: 35px 0 0 20px;
+}
+#links {
+    float: left;
+    width: 220px;
+    height: 45px;
+    padding: 35px 0 0 20px;
+    background: url(../images/img13.gif) repeat-x;
+}
+
+a:visited{
+    color: #000000;
+}
